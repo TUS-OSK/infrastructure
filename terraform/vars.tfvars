@@ -1,1 +1,1 @@
-ecs_cluster_name = "test"
+ecs_cluster_name = "ecs-test-terraform"
