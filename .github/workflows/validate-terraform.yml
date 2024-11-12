@@ -47,7 +47,4 @@ jobs:
       - name: Terraform Plan
         id: plan
         working-directory: ./terraform
-        run: |
-          set -e
-          terraform plan -no-color -var-file=vars.tfvars
-        continue-on-error: true
+        run: terraform plan -no-color -var-file=vars.tfvars
