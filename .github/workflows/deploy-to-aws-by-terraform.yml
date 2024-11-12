@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   get-caller-identity:
-    name: OIDC test
+    name: deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
